@@ -21,4 +21,26 @@
           .image-holder{
                     min-width: 95%;
           }
+          .explore-foodscard{
+                    margin: 20px 0;
+          }
+          .item-1{
+                    min-height: 100%;
+          }
+          .cta-showcase{
+                    flex-direction: column;
+                    text-align: center;
+                    padding: 0 20px;
+          }
+          .cta-note{
+                    padding: 30px 20px;
+          }
+          footer{
+                    flex-direction: column;
+                    padding: 20px;
+                    text-align: center;
+          }
+          .icon-holder{
+                    margin: 15px 0;
+          }
 }
