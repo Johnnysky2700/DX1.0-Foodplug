@@ -1,23 +1,30 @@
 *{
     margin: 0px;
+    box-sizing: border-box;
 }
 
+body{
+    font-family: "Inter", sans-serif;
+}
 .firstsection{
     display: flex;
     height: 460px;
-    border: 3px solid tomato;
 }
 
 .firstsection-leftdiv{
-    border: 3px solid black;
     height: 100%;
     width: 50%;
+    padding: 20px;
+}
+
+.firstsection-leftdiv p{
+    margin-bottom: 25px;
 }
 
 .firstsection-rightdiv{
     height: 100%;
     width: 50%;
-    background: var(--linear-gradient), url("./img/explore1.jpg");
+    background: var(--linear-gradient), url("./img/image1.jpeg");
     background-size: cover;
     background-position: bottom left; 
 }
@@ -32,4 +39,18 @@
 
 span{
     color: var(--main-color);
+}
+
+.line{
+    background: var(--main-color);
+    height: 16px;
+    width: 224px;
+}
+
+.logotext{
+    margin-bottom: 20px;
+}
+
+.heading{
+    margin-bottom: 20px;
 }
