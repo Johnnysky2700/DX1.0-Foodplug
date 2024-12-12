@@ -1,0 +1,35 @@
+*{
+    margin: 0px;
+}
+
+.firstsection{
+    display: flex;
+    height: 460px;
+    border: 3px solid tomato;
+}
+
+.firstsection-leftdiv{
+    border: 3px solid black;
+    height: 100%;
+    width: 50%;
+}
+
+.firstsection-rightdiv{
+    height: 100%;
+    width: 50%;
+    background: var(--linear-gradient), url("./img/explore1.jpg");
+    background-size: cover;
+    background-position: bottom left; 
+}
+
+.link-holder{
+    border: 3px solid blue;
+    display: flex;
+    justify-content: space-evenly;
+    color: var(--white-color);
+    padding: 20px 0;
+}
+
+span{
+    color: var(--main-color);
+}
