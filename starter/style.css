@@ -30,7 +30,6 @@ body{
 }
 
 .link-holder{
-    border: 3px solid blue;
     display: flex;
     justify-content: space-evenly;
     color: var(--white-color);

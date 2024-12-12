@@ -1,5 +1,6 @@
 :root {
-    --main-color: #a82d49;
+    --main-color: #ff6347;
+    --gray-color:#D9D9D9;
     --main-color-dark: #43121d;
     --text-color: #777;
     --light-text-color: rgba(119, 119, 119, 0.1);
@@ -11,8 +12,22 @@
     --linear-gradient: linear-gradient(to right, rgba(244,107,69, 0.4), rgba(255, 99, 71, 0.4));
 
 }
+/* ***** Common Fix Start here***** */
+/* ***** Common Fix ends here***** */
 
-/*
+/* ***** first section start here***** */
+/* ***** first section ends here***** */
+
+/* ***** Second section start here***** */
+/* ***** Second section ends here***** */
+
+/* ***** Third section start here***** */
+/* ***** Third section ends here***** */
+
+/* **** Moblie version ---using media Queries **** */
+/* **** Moblie version ---using media Queries **** */
+
+
 /* animations */
 @keyframes ripple {
     0% {
