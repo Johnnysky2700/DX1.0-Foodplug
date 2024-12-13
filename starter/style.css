@@ -92,3 +92,32 @@ span{
     margin-left: 20px;
 }
 /* ***** Second section ends here***** */
+
+/* ***** Third section start here***** */
+.thirdsection{
+    border: 3px solid tomato;
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+}
+
+.thirdsection-leftdiv,
+.thirdsection-rightdiv{
+    width: 350px;
+    height: 460px;
+}
+
+.thirdsection-leftdiv{
+    background: url("./img/image3.jpeg");
+    background-size: cover;
+}
+
+.thirdsection-rightdiv{
+    background: var(--main-color);
+    padding: 30px 25px;
+}
+
+.thirdsection-rightdiv p{
+    margin: 10px 0;
+}
+/* ***** Third section ends here***** */
