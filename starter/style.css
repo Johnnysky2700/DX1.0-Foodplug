@@ -95,10 +95,10 @@ span{
 
 /* ***** Third section start here***** */
 .thirdsection{
-    border: 3px solid tomato;
     display: flex;
     justify-content: center;
     padding: 50px 0;
+    flex-wrap: wrap;
 }
 
 .thirdsection-leftdiv,
