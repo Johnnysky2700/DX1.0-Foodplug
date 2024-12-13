@@ -1,6 +1,12 @@
+/* ***** Common Fix Start here***** */
 *{
     margin: 0px;
     box-sizing: border-box;
+}
+
+img{
+    width: 100%;
+    height: 100%;
 }
 
 body{
@@ -11,6 +17,9 @@ body{
     height: 460px;
 }
 
+/* ***** Common Fix ends here***** */
+
+/* ***** first section start here***** */
 .firstsection-leftdiv{
     height: 100%;
     width: 50%;
@@ -53,3 +62,27 @@ span{
 .heading{
     margin-bottom: 20px;
 }
+
+/* ***** first section ends here***** */
+
+/* ***** Second section start here***** */
+.secondsection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+}
+
+
+.secondsection-leftdiv{
+    width: 310px;
+    height: 400px;
+    background: var(--gray-color);
+}
+
+.secondsection-rightdiv{
+    height: 460px;
+    width: 340px;
+    margin-left: 20px;
+}
+/* ***** Second section ends here***** */
