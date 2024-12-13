@@ -71,6 +71,7 @@ span{
     justify-content: center;
     align-items: center;
     padding: 50px 0;
+    flex-wrap: wrap;
 }
 
 
@@ -78,6 +79,11 @@ span{
     width: 310px;
     height: 400px;
     background: var(--gray-color);
+    padding: 40px 25px;
+}
+
+.secondsection-leftdiv p{
+    margin: 10px 0;
 }
 
 .secondsection-rightdiv{
