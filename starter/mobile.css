@@ -1,26 +1,26 @@
 @media screen and (max-width:600px) {
     /* ***** first section start here***** */
-    .firstsection{
+    .firstsection {
         height: 520px;
     }
 
-    .firstsection-leftdiv{
+    .firstsection-leftdiv {
         width: 60%;
     } 
 
-    .firstsection-rightdiv{
+    .firstsection-rightdiv {
         width: 40%;
     }
 
-    .heading{
+    .heading {
         font-size: 25px;
     }
 
-    .line{
+    .line {
         width: 200px;
     }
     
-    p{
+    p {
         font-size: 16px;
     }
 
@@ -53,6 +53,19 @@
         margin-top: 30px;
     }
     /* ***** Third section ends here***** */
+
+    /* ***** footer section start here***** */
+   
+    .footer{
+        flex-direction: column;
+        text-align: center;
+        padding: 20px 30px;
+    }
+
+    .footer-iconcontainer{
+        margin: 15px 0;
+    }
+    /* ***** footer section ends here***** */
 
 
 }

@@ -12,14 +12,16 @@ img{
 body{
     font-family: "Inter", sans-serif;
 }
-.firstsection{
-    display: flex;
-    height: 460px;
-}
 
 /* ***** Common Fix ends here***** */
 
 /* ***** first section start here***** */
+.firstsection{
+    display: flex;
+    height: 460px;
+    max-width: 1500px;
+    margin: 0 auto;
+}
 .firstsection-leftdiv{
     height: 100%;
     width: 50%;
@@ -72,6 +74,8 @@ span{
     align-items: center;
     padding: 50px 0;
     flex-wrap: wrap;
+    max-width: 1500px;
+    margin: 0 auto;
 }
 
 
@@ -99,6 +103,8 @@ span{
     justify-content: center;
     padding: 50px 0;
     flex-wrap: wrap;
+    max-width: 1500px;
+    margin: 0 auto;
 }
 
 .thirdsection-leftdiv,
@@ -121,3 +127,20 @@ span{
     margin: 10px 0;
 }
 /* ***** Third section ends here***** */
+
+/* ***** footer section start here***** */
+.footer{
+    background: var(--main-color);
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    color: var(--white-color);
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+.fotericon{
+    margin: 0 5px;
+}
+/* ***** footer section ends here***** */
+
