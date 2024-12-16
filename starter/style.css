@@ -19,7 +19,7 @@ body{
 .firstsection{
     display: flex;
     height: 460px;
-    max-width: 1500px;
+    max-width: 1000px;
     margin: 0 auto;
 }
 .firstsection-leftdiv{
@@ -45,6 +45,10 @@ body{
     justify-content: space-evenly;
     color: var(--white-color);
     padding: 20px 0;
+    cursor: pointer;
+}
+.link-holder h4:hover{
+    color: black;
 }
 
 span{
